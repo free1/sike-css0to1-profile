@@ -105,9 +105,6 @@ li.whatido__skill {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-.info-section header h2:after {
-	border-bottom: 3px solid black;
-}
 .info-section__description {
   font-style: italic;
 }
@@ -115,6 +112,14 @@ li.whatido__skill {
 	content: "";
 	display: table;
 	clear: both;
+}
+.headerunderline:after {
+	content: "";
+  display: table;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+	border-bottom: 3px solid black;
 }
 
 
