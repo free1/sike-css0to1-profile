@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
   background-attachment: fixed;
@@ -97,10 +103,13 @@ li.whatido__skill {
   padding: 50px;
   width: 20%;
 }
-.info-section header {
+.whatido {
+  box-sizing: content-box;
+}
+.whatido header {
 	text-align: center;
 }
-.info-section header h2 {
+.headerunderline {
   font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -116,16 +125,40 @@ li.whatido__skill {
 .headerunderline:after {
 	content: "";
   display: table;
-  width: 30%;
+  width: 10%;
   margin: 0 auto;
   text-align: center;
 	border-bottom: 3px solid black;
 }
 
+.education-experience ul {
+  list-style: none;
+}
+.float-left {
+  float: left;
+}
+.education-experience__list li img {
+  height: 180px;
+}
+.education-experience__list__description {
+  padding-left: 80px;
+  overflow: hidden;
+}
+.photos header {
+  text-align: center;
+}
 
-
-
-
+.photos__list {
+  list-style: none;
+}
+.photos__list li {
+  width: 185px;
+  padding: 10px;
+  display: inline-block;
+}
+.photos__list li img {
+  width: 100%;
+}
 
 
 
