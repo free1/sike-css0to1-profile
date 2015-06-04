@@ -141,7 +141,7 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
 
       <section class="info-section get-in-touch">
         <header>
-          <h2>Get in Touch</h2>
+          <h2 class="headerunderline">Get in Touch</h2>
         </header>
         <ul class="get-in-touch__list">
           <li>
@@ -165,15 +165,21 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
 
       <section class="info-section contact">
         <header>
-          <h2>Or...Leave a Message</h2>
+          <h2 class="headerunderline">Or...Leave a Message</h2>
         </header>
         <form action="">
-          <label for="name">Name</label>
-          <input name="name" id="name" type="text">
-          <label for="email">Email</label>
-          <input name="email" id="email" type="email">
-          <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
+          <div class="box">
+            <label for="name">Name</label>
+            <input name="name" id="name" type="text">
+          </div>
+          <div class="box">
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email">
+          </div>
+          <div class="box">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
           <button type="submit">Submit</button>
         </form>
       </section>

@@ -103,11 +103,11 @@ li.whatido__skill {
   padding: 50px;
   width: 20%;
 }
+.info-section header {
+  text-align: center;
+}
 .whatido {
   box-sizing: content-box;
-}
-.whatido header {
-	text-align: center;
 }
 .headerunderline {
   font-size: 28px;
@@ -144,9 +144,6 @@ li.whatido__skill {
   padding-left: 80px;
   overflow: hidden;
 }
-.photos header {
-  text-align: center;
-}
 
 .photos__list {
   list-style: none;
@@ -160,8 +157,53 @@ li.whatido__skill {
   width: 100%;
 }
 
+.get-in-touch ul {
+  list-style: none;
+  overflow: hidden;
+}
+.get-in-touch ul li {
+  float: left;
+  margin-top: 10px;
+  width: 25%;
+  text-align: center;
+}
 
+.contact form {
+  width: 40%;
+  margin: 50px auto;
+} 
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+.contact button {
+  width: 100%;
+  border: none;
+  border-radius: 9999px;
 
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+.box {
+  position: relative;
+
+}
+.contact label {
+  width: 100%;
+  text-align: right;
+
+  position: absolute;
+  top: 20%;
+  left: -100%;
+}
 
 
 
